@@ -1,13 +1,17 @@
 
-def r
-  a = rand 1...2
-  a
-  puts a
+def run_guessing_game
+  a = rand 1..6
+  puts a 
   puts "Guess your number"
   b = gets.chomp
-  if a == b
+  if b = a and b != "exit"
     puts "You guessed the correct number!"
-  end
+  elsif
+    puts "Sorry! The computer guessed #{a}"
+  elsif
+    b == "exit"
+    puts "Goodbye!"
+  end  
 end
 
 puts run_guessing_game
