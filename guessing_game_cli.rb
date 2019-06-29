@@ -10,7 +10,7 @@ def run_guessing_game
     b != a and b != "exit"
     puts "Sorry! The computer guessed #{a}"
   elsif
-    b == "exit"
+    b = "exit"
     puts "Goodbye!"
   end
 end
