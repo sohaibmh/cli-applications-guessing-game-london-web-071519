@@ -1,6 +1,8 @@
 
 def run_guessing_game
   a = rand 1...2
+  a
+  puts a
   puts "Guess your number"
   b = gets.chomp
   if b == a
