@@ -4,8 +4,8 @@ def r
   puts a
   puts "Guess your number"
   b = gets.chomp
-  
-  if 
+
+  if
     b = a
     puts "You guessed the correct number!"
   elsif
