@@ -1,7 +1,7 @@
 
 def run_guessing_game
   a = rand 1..6
-  puts a 
+  puts a
   puts "Guess your number"
   b = gets.chomp
   if b = a and b != "exit"
@@ -11,7 +11,7 @@ def run_guessing_game
   elsif
     b == "exit"
     puts "Goodbye!"
-  end  
+  end
 end
 
 puts run_guessing_game
