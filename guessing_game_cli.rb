@@ -6,7 +6,7 @@ def run_guessing_game
   if b == a
     puts "You guessed the correct number!"
   elsif
-    puts "Sorry! The computer guess #{a}"
+    puts "Sorry! The computer guessed #{a}"
 end
 
 puts run_guessing_game
