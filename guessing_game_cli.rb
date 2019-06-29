@@ -5,8 +5,7 @@ def r
   puts "Guess your number"
   b = gets.chomp
 
-  if
-    b = a
+  if a == b 
     puts "You guessed the correct number!"
   elsif
     puts "Sorry! The computer guessed #{a}"
